@@ -53,11 +53,19 @@ form.addEventListener('submit',(event)=>{
     return false
   }
 
+  if(gender== ''){
+
+    alert('Please select the gender');
+    return false
+  }
+
+
   let user={
 
     name:first_name+last_name,
     email:email,
     password:pass,
+    gender:gender
   }
 
 
