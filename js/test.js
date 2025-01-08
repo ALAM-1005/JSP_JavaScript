@@ -1,1 +1,1 @@
-console('juned alam')
+console.log('juned alam')
