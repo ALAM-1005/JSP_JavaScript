@@ -8,6 +8,8 @@ console.log(`my name is ${name} and the number of rows is ${rows}`);  // most pr
 
 
 const values = new String('juned alam')
+
+
 console.log(values.length);
 
 
